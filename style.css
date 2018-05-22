@@ -9,6 +9,9 @@ p {
 p.margin {
   font-size: 12px;
 }
+p.talks {
+  text-align: left;
+}
 #footer {
   font-size: 12px;
 }
