@@ -13,15 +13,15 @@ p.margin {
   font-size: 12px;
 }
 .btn-info {
-  background-color: #629ca7;
-  border: 1px solid #629ca7;
+  background-color: #83B2B9;
+  border: 1px solid #83B2B9;
 }
 .btn-info:hover, .btn-info:focus {
   border: #31b0d5;
 }
 .fab, .fas {
   font-size: 40px;
-  color: #629ca7;
+  color: #4B7C86;
   padding: 10px;
   transform: scale(1);
   transition: all 0.2s ease-in-out;
@@ -31,7 +31,7 @@ p.margin {
   transform: scale(1.2);
 }
 a {
-  color: #629ca7;
+  color: #83B2B9;
 }
 a:hover, a:focus {
   color: #31b0d5;
@@ -49,6 +49,7 @@ hr {
 }
 .quote {
   font-style: italic;
+  margin-bottom: 0.5rem;
 }
 .bg-1 {
   background-image: url("assets/berg_lake_wallpaper.jpg");
@@ -64,7 +65,7 @@ hr {
   width: 100%;
 }
 .bg-2 {
-  background-color: #474e5d;
+  background-color: #344146;
   /* Dark Blue */
   color: #fff;
 }
@@ -200,7 +201,7 @@ hr {
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
-  color: #629ca7;
+  color: #83B2B9;
   font-size: 20px;
 }
 .timeline .timeline-body > p, .timeline .timeline-body > ul {
