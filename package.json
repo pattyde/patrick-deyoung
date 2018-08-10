@@ -1,0 +1,20 @@
+{
+  "name": "patrick-deyoung",
+  "version": "1.0.0",
+  "description": "Occasional cyclist, design system product manager, watcher of baseball games.",
+  "scripts": {
+    "start": "mdx-deck ./slides/deck.mdx",
+    "build": "mdx-deck build ./slides/deck.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattyde/patrick-deyoung.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://patrickdeyoung.me/",
+  "devDependencies": {
+    "mdx-deck": "^1.5.10"
+  }
+}
