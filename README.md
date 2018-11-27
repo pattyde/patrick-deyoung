@@ -1,1 +1,3 @@
-Occasional cyclist, design system product manager, watcher of baseball games.
+🚴Occasional cyclist
+🏡 product manager @allhomes
+⚾️ watcher of baseball games
