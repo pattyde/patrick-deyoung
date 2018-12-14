@@ -54,6 +54,43 @@ hr {
 	margin-left: 0;
 	margin-right: 0;
 }
+a.product-card p {
+	color: #555;
+}
+a.product-card h4 {
+	text-decoration: underline;
+	margin-bottom: 1em;
+}
+a.product-card p {
+	text-decoration: none;
+}
+a.product-card:hover {
+	text-decoration: none;
+}
+.product-list li {
+	list-style: none;
+	display: flex;
+	width: 100%;
+	margin-top: 1.5em;
+}
+.product-list ul {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.product-card {
+	margin: 0 auto;
+}
+.card-image {
+	max-width: 132px;
+	max-height: 132px;
+	margin: 1.5em auto;
+
+}
+.card-image img {
+	max-width: 100%;
+	border-radius: 22.5%;
+}
 .quote {
 	font-style: italic;
 	margin-bottom: 0.5rem;
@@ -125,7 +162,7 @@ hr {
 	bottom: 0;
 	left: 35px;
 	width: 2px;
-	margin-left: -1.5px;
+	margin-left: 0.25em;
 	background-color: #eee;
 }
 .timeline > li {
@@ -165,7 +202,7 @@ hr {
 	left: 0;
 	width: 70px;
 	height: 70px;
-	margin-left: 0;
+	margin-left: 0.25em;
 	border-radius: 100%;
 	text-align: center;
 	background: gray;
@@ -221,12 +258,26 @@ hr {
 	body {
 		color: #f5f6f7;
 	}
+	.product-list li {
+		display: flex;
+		width: 33.3333%;
+		float: left;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	ul > li:first-child {
+		padding-left: 0;
+	}
+	ul > li:last-child {
+		padding-right: 0;
+	}
 	.fab, .fas {
 		font-size: 48px;
 		padding: 20px;
 	}
 	.timeline:before {
 		left: 50%;
+		margin-left: 0;
 	}
 	.timeline > li {
 		margin-bottom: 10px;
