@@ -95,6 +95,15 @@ a.product-card:hover {
 	font-style: italic;
 	margin-bottom: 0.5rem;
 }
+.strikethrough {
+	text-decoration: line-through;
+}
+.handwriting {
+	font-family: 'Gloria Hallelujah', cursive;
+	display: inline-block;
+	transform: rotate(-3deg) translateY(-5px);
+
+}
 .bg-1 {
 	background-image: url("assets/berg_lake_wallpaper.jpg");
 	background-position-x: center;
@@ -199,8 +208,8 @@ a.product-card:hover {
 .timeline > li .timeline-image {
 	z-index: 100;
 	position: absolute;
-	left: 0;
 	width: 70px;
+	left: 0;
 	height: 70px;
 	margin-left: 0.25em;
 	border-radius: 100%;
